@@ -7,6 +7,6 @@ class Track(models.Model):
     duration = models.FloatField()
     last_play = models.DateTimeField()
 
-    def __str__(self) -> str:
+    def __str__(self):
         return self.title
 
